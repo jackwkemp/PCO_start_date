@@ -1,8 +1,14 @@
-# PCO_start_date
-Piece of code that predicts the **start date** of a document
+# PCO Start Date Predictor
 
-In this case, the example expiry date is '22/04/2022'.
+This repository contains a simple Python script that predicts the start date of a document based on an expiry date. 
 
-The code takes three years away from 2022, then adds one day to 22.
+For example:
+- Given the expiry date '22/04/2022', the code subtracts three years and adds one day, resulting in '23/04/2019'.
 
-The result = '23/04/2019'
+## Files:
+- **`pco_start_date_format.py`**: The main script for predicting the start date from the expiry date.
+
+## Setup
+1. Clone the repository.
+2. Install dependencies if needed.
+3. Run the script: `python pco_start_date_format.py`.
